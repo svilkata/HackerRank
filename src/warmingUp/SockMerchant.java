@@ -1,4 +1,4 @@
-package WarmingUp;
+package warmingUp;
 
 import java.util.*;
 import java.util.stream.Collectors;

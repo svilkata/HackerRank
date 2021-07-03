@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68423a59-4ffb-4d2e-a639-686fabcfcb89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/WarmingUp/RepeatedString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/TwoDArrayDS_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/WarmingUp/CountingValleys.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/WarmingUp/CountingValleys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/WarmingUp/JumpingOnTheClouds.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/WarmingUp/JumpingOnTheClouds.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/WarmingUp/RepeatedString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/WarmingUp/RepeatedString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/WarmingUp/SockMerchant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/WarmingUp/SockMerchant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WarmingUp/CountingValleys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/warmingUp/CountingValleys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WarmingUp/JumpingOnTheClouds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/warmingUp/JumpingOnTheClouds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WarmingUp/RepeatedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/warmingUp/RepeatedString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WarmingUp/SockMerchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/warmingUp/SockMerchant.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,20 +53,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RepeatedString">
+  <component name="RunManager" selected="Application.TwoDArrayDS_01">
     <configuration name="CountingValleys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WarmingUp.CountingValleys" />
+      <option name="MAIN_CLASS_NAME" value="warmingUp.CountingValleys" />
       <module name="HackerRank" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="JumpingOnTheClouds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WarmingUp.JumpingOnTheClouds" />
+      <option name="MAIN_CLASS_NAME" value="warmingUp.JumpingOnTheClouds" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WarmingUp.*" />
+          <option name="PATTERN" value="warmingUp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,11 +75,11 @@
       </method>
     </configuration>
     <configuration name="RepeatedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WarmingUp.RepeatedString" />
+      <option name="MAIN_CLASS_NAME" value="warmingUp.RepeatedString" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WarmingUp.*" />
+          <option name="PATTERN" value="warmingUp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,14 +88,28 @@
       </method>
     </configuration>
     <configuration name="SockMerchant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WarmingUp.SockMerchant" />
+      <option name="MAIN_CLASS_NAME" value="warmingUp.SockMerchant" />
       <module name="HackerRank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoDArrayDS_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.TwoDArrayDS_01" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoDArrayDS_01" />
         <item itemvalue="Application.RepeatedString" />
         <item itemvalue="Application.JumpingOnTheClouds" />
         <item itemvalue="Application.CountingValleys" />
@@ -111,6 +133,7 @@
       <workItem from="1622492111893" duration="18000" />
       <workItem from="1622964346452" duration="3731000" />
       <workItem from="1623577121968" duration="2113000" />
+      <workItem from="1625303677065" duration="2436000" />
     </task>
     <servers />
   </component>
@@ -122,7 +145,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -132,34 +157,49 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WarmingUp/CountingValleys.java</url>
+          <url>file://$PROJECT_DIR$/src/warmingUp/CountingValleys.java</url>
           <line>39</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WarmingUp/CountingValleys.java</url>
+          <url>file://$PROJECT_DIR$/src/warmingUp/CountingValleys.java</url>
           <line>34</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WarmingUp/CountingValleys.java</url>
+          <url>file://$PROJECT_DIR$/src/warmingUp/CountingValleys.java</url>
           <line>32</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WarmingUp/JumpingOnTheClouds.java</url>
+          <url>file://$PROJECT_DIR$/src/warmingUp/JumpingOnTheClouds.java</url>
           <line>37</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WarmingUp/JumpingOnTheClouds.java</url>
+          <url>file://$PROJECT_DIR$/src/warmingUp/JumpingOnTheClouds.java</url>
           <line>34</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WarmingUp/JumpingOnTheClouds.java</url>
+          <url>file://$PROJECT_DIR$/src/warmingUp/JumpingOnTheClouds.java</url>
           <line>27</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/TwoDArrayDS_01.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/TwoDArrayDS_01.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/TwoDArrayDS_01.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
