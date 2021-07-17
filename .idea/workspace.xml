@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68423a59-4ffb-4d2e-a639-686fabcfcb89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/LeftRotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="68423a59-4ffb-4d2e-a639-686fabcfcb89" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +129,7 @@
       <workItem from="1622964346452" duration="3731000" />
       <workItem from="1623577121968" duration="2113000" />
       <workItem from="1625303677065" duration="2436000" />
-      <workItem from="1626511333348" duration="1380000" />
+      <workItem from="1626511333348" duration="1771000" />
     </task>
     <servers />
   </component>
