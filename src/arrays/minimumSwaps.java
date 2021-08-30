@@ -13,6 +13,7 @@ public class minimumSwaps {
                 .mapToInt(x -> Integer.parseInt(x))
                 .toArray();
 
+
         System.out.println(minimumSwaps(arr));
         System.out.println(Arrays.stream(arr).mapToObj(x -> (x + "")).collect(Collectors.joining(" ")));
 
@@ -24,6 +25,7 @@ public class minimumSwaps {
     static int minimumSwaps(int[] arr) {
         int countOfSwaps = 0;
         int n = arr.length;
+
 
         for (int k = 0; k < n - 1; k++) { //брой операции
 
