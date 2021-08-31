@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68423a59-4ffb-4d2e-a639-686fabcfcb89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/minimumSwapsEasy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ArrayManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ArrayManipulationWithMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HackerRank/arrays/minimumSwaps.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/arrays/minimumSwaps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/minimumSwaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/minimumSwaps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/arrays/minimumSwapsEasy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/arrays/minimumSwapsEasy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/arrays/minimumSwapsMergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/arrays/minimumSwapsMergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/minimumSwaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/MinimumSwaps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/minimumSwapsEasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/MinimumSwapsEasy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/minimumSwapsMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/MinimumSwapsMergeSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,9 +52,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.minimumSwapsEasy">
-    <configuration name="LeftRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.LeftRotation" />
+  <component name="RunManager" selected="Application.ArrayManipulationWithMap">
+    <configuration name="ArrayManipulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ArrayManipulation" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
@@ -61,8 +66,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="minimumSwaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.minimumSwaps" />
+    <configuration name="ArrayManipulationWithMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ArrayManipulationWithMap" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumSwaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MinimumSwaps" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumSwapsEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MinimumSwapsEasy" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
@@ -87,39 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="minimumSwapsEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.minimumSwapsEasy" />
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="minimumSwapsMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.minimumSwapsMergeSort" />
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.minimumSwapsEasy" />
-        <item itemvalue="Application.minimumSwaps" />
+        <item itemvalue="Application.ArrayManipulationWithMap" />
+        <item itemvalue="Application.ArrayManipulation" />
+        <item itemvalue="Application.MinimumSwapsEasy" />
+        <item itemvalue="Application.MinimumSwaps" />
         <item itemvalue="Application.minimumSwapsCheated" />
-        <item itemvalue="Application.minimumSwapsMergeSort" />
-        <item itemvalue="Application.LeftRotation" />
       </list>
     </recent_temporary>
   </component>
@@ -143,6 +148,7 @@
       <workItem from="1626511333348" duration="1771000" />
       <workItem from="1630143363127" duration="7443000" />
       <workItem from="1630351073263" duration="2874000" />
+      <workItem from="1630435748588" duration="4002000" />
     </task>
     <servers />
   </component>
@@ -211,49 +217,54 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/minimumSwapsMergeSort.java</url>
+          <url>file://$PROJECT_DIR$/src/arrays/MinimumSwapsMergeSort.java</url>
           <line>28</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/minimumSwapsMergeSort.java</url>
+          <url>file://$PROJECT_DIR$/src/arrays/MinimumSwapsMergeSort.java</url>
           <line>33</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/minimumSwapsMergeSort.java</url>
+          <url>file://$PROJECT_DIR$/src/arrays/MinimumSwapsMergeSort.java</url>
           <line>39</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/minimumSwapsMergeSort.java</url>
+          <url>file://$PROJECT_DIR$/src/arrays/MinimumSwapsMergeSort.java</url>
           <line>42</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/minimumSwapsEasy.java</url>
+          <url>file://$PROJECT_DIR$/src/arrays/MinimumSwapsEasy.java</url>
           <line>21</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/minimumSwapsEasy.java</url>
+          <url>file://$PROJECT_DIR$/src/arrays/MinimumSwapsEasy.java</url>
           <line>25</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/minimumSwapsEasy.java</url>
+          <url>file://$PROJECT_DIR$/src/arrays/MinimumSwapsEasy.java</url>
           <line>27</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/minimumSwapsEasy.java</url>
+          <url>file://$PROJECT_DIR$/src/arrays/MinimumSwapsEasy.java</url>
           <line>28</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/arrays/minimumSwapsEasy.java</url>
+          <url>file://$PROJECT_DIR$/src/arrays/MinimumSwapsEasy.java</url>
           <line>31</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/ArrayManipulation.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
