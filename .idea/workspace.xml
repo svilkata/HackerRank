@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68423a59-4ffb-4d2e-a639-686fabcfcb89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dictionaries_maps/TwoStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dictionaries_maps/SherlockAndAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dictionaries_maps/SherlockAndAnagrams.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,26 +45,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwoStrings">
-    <configuration name="ArrayManipulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ArrayManipulation" />
+  <component name="RunManager" selected="Application.CountTriplets">
+    <configuration name="CountTriplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dictionaries_maps.CountTriplets" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayManipulationWithMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ArrayManipulationWithMap" />
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="dictionaries_maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,6 +85,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SherlockAndAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dictionaries_maps.SherlockAndAnagrams" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dictionaries_maps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dictionaries_maps.TwoStrings" />
       <module name="HackerRank" />
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountTriplets" />
+        <item itemvalue="Application.SherlockAndAnagrams" />
         <item itemvalue="Application.TwoStrings" />
         <item itemvalue="Application.RansomNote" />
         <item itemvalue="Application.NewYearChaos" />
-        <item itemvalue="Application.ArrayManipulationWithMap" />
-        <item itemvalue="Application.ArrayManipulation" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +146,7 @@
       <workItem from="1632563711931" duration="5000" />
       <workItem from="1635423466034" duration="7000" />
       <workItem from="1636817632374" duration="2320000" />
-      <workItem from="1636880326231" duration="3539000" />
+      <workItem from="1636880326231" duration="12398000" />
     </task>
     <servers />
   </component>
@@ -304,7 +304,27 @@
           <line>13</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dictionaries_maps/SherlockAndAnagrams.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dictionaries_maps/CountTriplets.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dictionaries_maps/CountTriplets.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="before" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
