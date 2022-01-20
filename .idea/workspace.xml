@@ -44,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FrequencyQueries">
+  <component name="RunManager" selected="Application.MakingAnagrams">
     <configuration name="CountTriplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dictionaries_maps.CountTriplets" />
       <module name="HackerRank" />
@@ -71,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RansomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dictionaries_maps.RansomNote" />
+    <configuration name="MakingAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.MakingAnagrams" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dictionaries_maps.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MakingAnagrams" />
         <item itemvalue="Application.FrequencyQueries" />
         <item itemvalue="Application.CountTriplets" />
         <item itemvalue="Application.SherlockAndAnagrams" />
         <item itemvalue="Application.TwoStrings" />
-        <item itemvalue="Application.RansomNote" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +147,7 @@
       <workItem from="1636817632374" duration="2320000" />
       <workItem from="1636880326231" duration="12398000" />
       <workItem from="1636907945407" duration="8258000" />
+      <workItem from="1642708612744" duration="1628000" />
     </task>
     <servers />
   </component>
